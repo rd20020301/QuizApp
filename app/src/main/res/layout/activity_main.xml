@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--1 savol -->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/bir_savol"/>
+
+        <RadioGroup
+            android:id="@+id/radio_bir_savol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="32dp"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+            <RadioButton
+                android:id="@+id/moscow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/moskva"
+                android:onClick="onRadioQuestionOne"/>
+
+            <RadioButton
+                android:id="@+id/london"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/london"
+                android:onClick="onRadioQuestionOne"/>
+
+            <RadioButton
+                android:id="@+id/tashkent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toshkent"
+                android:onClick="onRadioQuestionOne"/>
+        </RadioGroup>
+
+        <!--2 savol-->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/ikki_savol"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/flag_uzb"
+            android:contentDescription="@string/todo" />
+
+        <EditText
+            android:id="@+id/ikki_savol_javob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:inputType="text"
+            android:hint="@string/sizning_javobingiz"
+            android:autofillHints="" />
+
+        <!--3 savol-->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/uch_savol"/>
+
+        <CheckBox
+            android:id="@+id/uzbekistan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/o_zbekiston"/>
+
+        <CheckBox
+            android:id="@+id/japan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/yaponiya"/>
+
+        <CheckBox
+            android:id="@+id/china"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/xitoy"/>
+
+        <CheckBox
+            android:id="@+id/myanma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/myanma"/>
+
+        <!--4 savol-->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/turt_savol"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="8dp"
+            android:src="@drawable/gerb_uzb"
+            android:contentDescription="@string/todo" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_quest_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/uzbekiya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/o_zbekiston"
+                android:onClick="onRadioQuestionFour"/>
+
+            <RadioButton
+                android:id="@+id/tadjik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tojikiston"
+                android:onClick="onRadioQuestionFour"/>
+
+        </RadioGroup>
+
+        <!--5 savol -->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/besh_savol"/>
+
+        <RadioGroup
+            android:id="@+id/radio_bir_savol5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="32dp"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+            <RadioButton
+                android:id="@+id/dushanbe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dushanbe"
+                android:onClick="onRadioQuestionOne5"/>
+
+            <RadioButton
+                android:id="@+id/bishkek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bishkek"
+                android:onClick="onRadioQuestionOne5"/>
+
+            <RadioButton
+                android:id="@+id/nursulton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nursulton"
+                android:onClick="onRadioQuestionOne5"/>
+            <RadioButton
+                android:id="@+id/samarqand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/samarqand"
+                android:onClick="onRadioQuestionOne5"/>
+        </RadioGroup>
+
+
+        <!--6 savol -->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/olti_savol"/>
+
+        <RadioGroup
+            android:id="@+id/radio_bir_savol6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="32dp"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+            <RadioButton
+                android:id="@+id/madrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/madrid"
+                android:onClick="onRadioQuestionOne6"/>
+
+            <RadioButton
+                android:id="@+id/rim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rim"
+                android:onClick="onRadioQuestionOne6"/>
+
+            <RadioButton
+                android:id="@+id/berlin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/berlin"
+                android:onClick="onRadioQuestionOne6"/>
+            <RadioButton
+                android:id="@+id/parij"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parij"
+                android:onClick="onRadioQuestionOne6"/>
+        </RadioGroup>
+
+
+        <!--7 savol-->
+        <TextView
+            style="@style/QuestionItem"
+            android:text="@string/yetti_savol"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="8dp"
+            android:src="@drawable/flag_usa"
+            android:contentDescription="@string/todo" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_quest_yetti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/rossiya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rossiya"
+                android:onClick="onRadioQuestionFour2"/>
+
+            <RadioButton
+                android:id="@+id/amerika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/amerika"
+                android:onClick="onRadioQuestionFour2"/>
+
+            <RadioButton
+                android:id="@+id/xitoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xitoy"
+                android:onClick="onRadioQuestionFour2"/>
+
+        </RadioGroup>
+            <!--8 savol-->
+            <TextView
+                style="@style/QuestionItem"
+                android:text="@string/ikki_savol2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="8dp"
+                android:src="@drawable/omuc"
+                android:contentDescription="@string/todo" />
+
+            <EditText
+                android:id="@+id/ikki_savol_javob2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:inputType="text"
+                android:hint="@string/sizning_javobingiz2"
+                android:autofillHints="" />
+
+
+        <!--Javoblarni yuklash-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="@string/javoblarni_yuklash"
+            android:onClick="submitQuiz"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

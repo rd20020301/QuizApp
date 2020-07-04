@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="bir_savol">1. O`zbekiston Respublikasi poytaxti?</string>
+    <string name="ikki_savol">2. Quyidagi bayroq qaysi mamlakatga tegishli?</string>
+    <string name="uch_savol">3. Quyidagi mamlakatlardan qaysi biri Osiyo qit`asida?</string>
+    <string name="turt_savol">4. Quyidagi gerb qaysi mamlakatga tegishli?</string>
+    <string name="besh_savol" >5. Qozog`iston Respublikasi poytaxti </string>
+    <string name="olti_savol" >6. Ispaniya qirolligi poytaxti? </string>
+    <string name="moskva">Moskva</string>
+    <string name="london">London</string>
+    <string name="toshkent">Toshkent</string>
+    <string name="todo1">TODO</string>
+    <string name="sizning_javobingiz">Sizning javobingiz</string>
+    <string name="o_zbekiston">O`zbekiston</string>
+    <string name="yaponiya">Yaponiya</string>
+    <string name="xitoy">Xitoy</string>
+    <string name="myanma">Myanma</string>
+    <string name="o_zbekiston1">O`zbekiston</string>
+    <string name="tojikiston">Tojikiston</string>
+    <string name="dushanbe">Dushanbe</string>
+    <string name="todo">TODO</string>
+    <string name="bishkek">bishkek</string>
+    <string name="nursulton">Nursulton</string>
+    <string name="samarqand">Samarqand</string>
+    <string name="madrid">Madrid</string>
+    <string name="rim">Rim</string>
+    <string name="berlin">Berlin</string>
+    <string name="parij">Parij</string>
+    <string name="javoblarni_yuklash">Javoblarni yuklash</string>
+    <string name="yetti_savol" >7. Quyidagi bayroq qaysi mamlakatga tegishli</string>
+    <string name="rossiya" >Rossiya</string>
+    <string name="amerika" >AQSh</string>
+    <string name="ikki_savol2">8. Ushbu logotip qaysi loyihaga tegishli?</string>
+    <string name="sizning_javobingiz2"> Qisqartma shaklini yozing</string>
+</resources>
